@@ -1,0 +1,1 @@
+const String Splashscreen1 = 'assets/images/splash1.png';

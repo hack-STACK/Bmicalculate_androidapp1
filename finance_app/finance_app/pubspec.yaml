@@ -1,0 +1,37 @@
+name: finance_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.3.7
+  google_fonts: ^6.1.0
+  smooth_page_indicator: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  color: "#f7f6f1"
+  color_dark: "#272727"
+  image: assets/images/example-splash.jpeg
+  image_dark: assets/images/example-splash.jpeg
+
+  android_12:
+    image: assets/images/example-splash.jpeg
+    icon_background_color: "#f7f6f1"
+    image_dark: assets/images/example-splash.jpeg
+    icon_background_color_dark: "272727"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+

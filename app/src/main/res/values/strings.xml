@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Individu1</string>
+    <string name="hitung">Hitung</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="laki_laki">Laki-laki</string>
+    <string name="berat_kg">Berat (kg)</string>
+    <string name="tinggi_cm">Tinggi (cm)</string>
+</resources>
