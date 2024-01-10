@@ -5,4 +5,9 @@
     <string name="laki_laki">Laki-laki</string>
     <string name="berat_kg">Berat (kg)</string>
     <string name="tinggi_cm">Tinggi (cm)</string>
+    <string name="Nama_field" />
+    <string name="telepon_" />
+    <string name="telepon">Telepon\n</string>
+    <string name="Nama">nama</string>
+    <string name="Alamat">Alamat</string>
 </resources>

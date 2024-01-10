@@ -6,6 +6,32 @@
     android:orientation="vertical"
     android:padding="16dp"
     tools:context="com.example.bmi_individu.MainActivity">
+    <EditText
+        android:id="@+id/editTexthuman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Nama"
+        android:inputType="text"
+        android:layout_marginTop="16dp"
+        android:autofillHints="Nama" />
+
+    <EditText
+        android:id="@+id/editTextAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Alamat"
+        android:inputType="text"
+        android:layout_marginTop="16dp"
+        android:autofillHints="Alamat" />
+
+    <EditText
+        android:id="@+id/editTexttelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telepon"
+        android:inputType="text"
+        android:layout_marginTop="16dp"
+        android:autofillHints="Telepon" />
 
     <EditText
         android:id="@+id/editTextHeight"
@@ -24,6 +50,7 @@
         android:inputType="numberDecimal"
         android:layout_marginTop="16dp"
         android:autofillHints="" />
+
 
     <RadioGroup
         android:id="@+id/radioGroupGender"
@@ -46,12 +73,40 @@
             android:text="@string/perempuan"/>
     </RadioGroup>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+
     <Button
         android:id="@+id/buttonCalculate"
         android:layout_width="match_parent"
+        style="@style/Widget.AppCompat.ActionBar"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
         android:text="@string/hitung"
         android:layout_marginTop="16dp"/>
+        
+        s<Space
+        android:layout_width="6dp"
+        android:layout_height="1dp">
+
+    </Space>
+        <Button
+            android:id="@+id/Reset"
+            android:layout_width="match_parent"
+            style="@style/Widget.AppCompat.ActionBar"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:text="Reset"
+            android:layout_marginTop="16dp"/>
+
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textViewResult"
