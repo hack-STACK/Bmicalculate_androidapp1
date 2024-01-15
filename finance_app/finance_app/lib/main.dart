@@ -17,7 +17,7 @@ class MainApp extends StatelessWidget {
      theme:NAappTheme.lightTheme,
      darkTheme: NAappTheme.darkTheme,
      themeMode: ThemeMode.system,
-     home: const SplashScreen()
+     home:  const SplashScreen()
     );
   }
 }
